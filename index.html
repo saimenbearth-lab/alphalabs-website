@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alpha Labs — Die 7 größten unentdeckten Tech-Chancen 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0a0e27;--bg2:#0d1235;--bg3:#111840;--gold:#d4af37;--gold2:#e8c547;--text:#e8e8e8;--text2:#a0a8c0;--border:#1a2040;--green:#2ecc71;--red:#e74c3c}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden}
+h1,h2,h3,h4{font-family:'Playfair Display',serif}
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+
+/* NAVBAR */
+nav{position:fixed;top:0;left:0;right:0;z-index:1000;padding:16px 0;transition:all .3s}
+nav.scrolled{background:rgba(10,14,39,.95);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+nav .container{display:flex;justify-content:space-between;align-items:center}
+.logo{font-family:'Playfair Display',serif;font-size:24px;font-weight:700;color:var(--gold);text-decoration:none}
+.nav-links{display:flex;gap:32px;align-items:center}
+.nav-links a{color:var(--text2);text-decoration:none;font-size:14px;font-weight:500;transition:color .3s}
+.nav-links a:hover{color:var(--gold)}
+.nav-cta{background:var(--gold);color:var(--bg);padding:8px 20px;border-radius:6px;font-weight:600;text-decoration:none;font-size:14px;transition:all .3s}
+.nav-cta:hover{background:var(--gold2);transform:translateY(-1px)}
+.mobile-menu{display:none;background:none;border:none;color:var(--text);font-size:24px;cursor:pointer}
+
+/* HERO */
+.hero{padding:140px 0 80px;background:linear-gradient(135deg,var(--bg) 0%,var(--bg2) 50%,var(--bg) 100%);position:relative;overflow:hidden}
+.hero::before{content:'';position:absolute;top:-50%;right:-20%;width:600px;height:600px;background:radial-gradient(circle,rgba(212,175,55,.08) 0%,transparent 70%);border-radius:50%}
+.hero h1{font-size:clamp(36px,6vw,64px);font-weight:800;line-height:1.1;margin-bottom:24px;max-width:800px}
+.hero h1 .gold{color:var(--gold)}
+.hero-sub{font-size:18px;color:var(--text2);max-width:600px;margin-bottom:40px}
+.hero-stats{display:flex;gap:40px;margin-bottom:40px}
+.stat-item .stat-num{font-size:32px;font-weight:700;color:var(--gold);font-family:'Playfair Display',serif}
+.stat-item .stat-label{font-size:13px;color:var(--text2);text-transform:uppercase;letter-spacing:1px}
+.hero-cta{display:inline-flex;gap:16px;align-items:center}
+.btn-primary{background:var(--gold);color:var(--bg);padding:16px 32px;border-radius:8px;font-weight:700;text-decoration:none;font-size:16px;transition:all .3s;border:none;cursor:pointer}
+.btn-primary:hover{background:var(--gold2);transform:translateY(-2px);box-shadow:0 8px 30px rgba(212,175,55,.3)}
+.btn-secondary{background:transparent;color:var(--gold);padding:16px 32px;border-radius:8px;font-weight:600;text-decoration:none;font-size:16px;border:2px solid var(--gold);transition:all .3s}
+.btn-secondary:hover{background:var(--gold);color:var(--bg)}
+
+/* CHANCE CARDS */
+.chances-section{padding:80px 0;background:var(--bg2)}
+.chances-section h2{font-size:36px;margin-bottom:12px;text-align:center}
+.chances-section .subtitle{text-align:center;color:var(--text2);margin-bottom:48px}
+.chances-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:24px}
+.chance-card{background:linear-gradient(135deg,var(--bg3),var(--bg2));border:1px solid var(--border);border-radius:12px;padding:28px;transition:all .3s;position:relative;overflow:hidden}
+.chance-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--gold),var(--gold2));opacity:0;transition:opacity .3s}
+.chance-card:hover{transform:translateY(-4px);border-color:var(--gold);box-shadow:0 12px 40px rgba(0,0,0,.3)}
+.chance-card:hover::before{opacity:1}
+.chance-card .tag{display:inline-block;background:rgba(212,175,55,.15);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:12px;font-weight:600;margin-bottom:12px}
+.chance-card h3{font-size:20px;margin-bottom:8px}
+.chance-card p{font-size:14px;color:var(--text2);margin-bottom:16px}
+.chance-card .metric{font-size:24px;font-weight:700;color:var(--gold);font-family:'Playfair Display',serif}
+.chance-card .metric-label{font-size:12px;color:var(--text2)}
+
+/* PRICING */
+.pricing-section{padding:100px 0;background:var(--bg)}
+.pricing-section h2{font-size:36px;text-align:center;margin-bottom:12px}
+.pricing-section .subtitle{text-align:center;color:var(--text2);margin-bottom:48px}
+.pricing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px;max-width:900px;margin:0 auto}
+.pricing-card{background:var(--bg2);border:1px solid var(--border);border-radius:16px;padding:36px;text-align:center;transition:all .3s;position:relative}
+.pricing-card.featured{border-color:var(--gold);transform:scale(1.02)}
+.pricing-card.featured .badge{position:absolute;top:-12px;left:50%;transform:translateX(-50%);background:var(--gold);color:var(--bg);padding:6px 16px;border-radius:20px;font-size:12px;font-weight:700}
+.pricing-card h3{font-size:22px;margin-bottom:8px}
+.pricing-card .price{font-size:48px;font-weight:800;color:var(--gold);font-family:'Playfair Display',serif;margin:16px 0}
+.pricing-card .price span{font-size:16px;color:var(--text2);font-weight:400}
+.pricing-card ul{list-style:none;text-align:left;margin:24px 0}
+.pricing-card ul li{padding:8px 0;color:var(--text2);font-size:14px;display:flex;align-items:center;gap:8px}
+.pricing-card ul li::before{content:'✓';color:var(--green);font-weight:700}
+.pricing-cta{display:block;background:var(--gold);color:var(--bg);padding:14px 0;border-radius:8px;font-weight:700;text-decoration:none;font-size:16px;transition:all .3s;margin-top:24px}
+.pricing-cta:hover{background:var(--gold2);transform:translateY(-2px)}
+
+/* FOOTER */
+footer{padding:40px 0;background:var(--bg2);border-top:1px solid var(--border);text-align:center}
+footer p{color:var(--text2);font-size:14px}
+
+/* NEWSLETTER FORM */
+.newsletter-form{display:flex;gap:12px;max-width:500px;margin-top:24px}
+.newsletter-form input{flex:1;padding:14px 20px;border:1px solid var(--border);border-radius:8px;background:var(--bg2);color:var(--text);font-size:15px;font-family:'Inter',sans-serif}
+.newsletter-form input:focus{outline:none;border-color:var(--gold)}
+.newsletter-form button{padding:14px 28px;background:var(--gold);color:var(--bg);border:none;border-radius:8px;font-weight:700;font-size:15px;cursor:pointer;transition:all .3s;font-family:'Inter',sans-serif}
+.newsletter-form button:hover{background:var(--gold2)}
+
+/* HOW IT WORKS */
+.how-section{padding:80px 0;background:var(--bg2)}
+.how-section h2{font-size:36px;text-align:center;margin-bottom:48px}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:32px;max-width:800px;margin:0 auto}
+.step{text-align:center}
+.step-num{width:60px;height:60px;border-radius:50%;background:var(--gold);color:var(--bg);display:flex;align-items:center;justify-content:center;font-size:24px;font-weight:800;margin:0 auto 20px;font-family:'Playfair Display',serif}
+.step h4{font-size:18px;margin-bottom:8px}
+.step p{font-size:14px;color:var(--text2)}
+
+/* FADE IN */
+.fade-in{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}
+.fade-in.visible{opacity:1;transform:translateY(0)}
+
+/* RESPONSIVE */
+@media(max-width:768px){
+.nav-links{display:none}
+.mobile-menu{display:block}
+.hero{padding:120px 0 60px}
+.hero h1{font-size:32px}
+.hero-stats{flex-direction:column;gap:20px}
+.chances-grid,.pricing-grid,.steps{grid-template-columns:1fr}
+.pricing-card.featured{transform:none}
+.newsletter-form{flex-direction:column}
+}
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav id="navbar">
+<div class="container">
+<a href="#" class="logo">Alpha Labs</a>
+<div class="nav-links">
+<a href="#signal">Alpha Signal</a>
+<a href="#creatorfuel">CreatorFuel</a>
+<a href="#agentsmith">AgentSmith</a>
+<a href="#pricing" class="nav-cta">Jetzt starten</a>
+</div>
+<button class="mobile-menu" onclick="document.querySelector('.nav-links').classList.toggle('active')">☰</button>
+</div>
+</nav>
+
+<!-- SECTION 1: ALPHA SIGNAL NEWSLETTER -->
+<section class="hero" id="signal">
+<div class="container">
+<h1>Die 3 wichtigsten <span class="gold">Tech-Chancen</span> — jede Woche in dein Postfach</h1>
+<p class="hero-sub">Wir analysieren 250+ Quellen mit 10 KI-Agenten. Du bekommst nur das Signal.</p>
+<div class="hero-stats">
+<div class="stat-item"><div class="stat-num">10</div><div class="stat-label">Parallele Agenten</div></div>
+<div class="stat-item"><div class="stat-num">250+</div><div class="stat-label">Quellen pro Report</div></div>
+<div class="stat-item"><div class="stat-num">3.847</div><div class="stat-label">Investoren lesen uns</div></div>
+</div>
+<div class="hero-cta">
+<form class="newsletter-form" action="https://formspree.io/f/xnqevwrb" method="POST">
+<input type="email" name="email" placeholder="deine@email.com" required>
+<button type="submit">Kostenlos abonnieren</button>
+</form>
+</div>
+<p style="margin-top:16px;font-size:13px;color:var(--text2)">Kostenlos. Jederzeit kündbar. Kein Spam.</p>
+</div>
+</section>
+
+<!-- CHANCE CARDS -->
+<section class="chances-section">
+<div class="container">
+<h2>Die 7 grössten <span class="gold">unentdeckten Chancen</span> 2026</h2>
+<p class="subtitle">Basierend auf 250+ Datenquellen, cross-verifiziert durch 10 unabhängige Recherche-Agenten</p>
+<div class="chances-grid">
+<div class="chance-card fade-in">
+<span class="tag">AI-Infrastruktur</span>
+<h3>Mastra</h3>
+<p>Das "React für AI-Agenten" — 1.8M npm Downloads/Monat, $13M Seed, PayPal & Adobe in Produktion</p>
+<div class="metric">1.8M</div><div class="metric-label">Downloads/Monat</div>
+</div>
+<div class="chance-card fade-in">
+<span class="tag">DePIN</span>
+<h3>Dabba Network</h3>
+<p>Dezentrales Breitband in Indien — 130K Hotspots, 700K DAU, $600K MRR, pre-Token</p>
+<div class="metric">$600K</div><div class="metric-label">Monatlicher Umsatz</div>
+</div>
+<div class="chance-card fade-in">
+<span class="tag">DeSo/Web3</span>
+<h3>DeBank</h3>
+<p>Die Social Asset Layer von Web3 — 600K DAU, 340% Wachstum, Equity-Play ohne Token-Spekulation</p>
+<div class="metric">600K</div><div class="metric-label">Tägliche Nutzer</div>
+</div>
+<div class="chance-card fade-in">
+<span class="tag">Live-Commerce</span>
+<h3>BIGC</h3>
+<p>All-in-One Digital Venue für K-Pop — 1.1M Mitglieder in 224 Ländern, 1.028% Wachstum in 3 Jahren</p>
+<div class="metric">1,028%</div><div class="metric-label">Wachstum in 3 Jahren</div>
+</div>
+<div class="chance-card fade-in">
+<span class="tag">Prediction Markets</span>
+<h3>Limitless Exchange</h3>
+<p>On-Chain Prediction Markets — $1.1B monatliches Volumen, 205% QoQ-Wachstum, Coinbase-backed</p>
+<div class="metric">$1.1B</div><div class="metric-label">Monatliches Volumen</div>
+</div>
+<div class="chance-card fade-in">
+<span class="tag">Edge AI</span>
+<h3>Mirai</h3>
+<p>On-Device Inference — 37% schneller als Cloud, SDK in 8 Zeilen Code, $10M Seed</p>
+<div class="metric">37%</div><div class="metric-label">Schneller als Cloud</div>
+</div>
+<div class="chance-card fade-in">
+<span class="tag">Emerging Markets</span>
+<h3>Chowdeck</h3>
+<p>Nigerias profitabler Super-App — 1.5M Kunden, profitabel seit Gründung, $9M Series A</p>
+<div class="metric">1.5M</div><div class="metric-label">Kunden</div>
+</div>
+</div>
+</div>
+</section>
+
+<!-- HOW IT WORKS -->
+<section class="how-section">
+<div class="container">
+<h2>Wie <span class="gold">Alpha Signal</span> funktioniert</h2>
+<div class="steps">
+<div class="step fade-in">
+<div class="step-num">1</div>
+<h4>10 KI-Agenten recherchieren</h4>
+<p>Jeder Agent durchsucht eine Dimension — von AI-Infrastruktur bis Emerging Markets</p>
+</div>
+<div class="step fade-in">
+<div class="step-num">2</div>
+<h4>Cross-Verification</h4>
+<p>Alle Ergebnisse werden gegeneinander geprüft — nur verifizierte Chancen kommen durch</p>
+</div>
+<div class="step fade-in">
+<div class="step-num">3</div>
+<h4>Actionable Intelligence</h4>
+<p>Kein Fluff. Nur faktenbasierte Analyse mit klaren Handlungsempfehlungen</p>
+</div>
+</div>
+</div>
+</section>
+
+<!-- SECTION 2: CREATORFUEL PRICING -->
+<section class="pricing-section" id="creatorfuel">
+<div class="container">
+<h2>CreatorFuel — <span class="gold">KI-Content</span> für Creator</h2>
+<p class="subtitle">3-5 fertige Posts pro Tag. In deinem Stil. Kopieren. Posten. Wachsen.</p>
+<div class="pricing-grid" id="pricing">
+<div class="pricing-card fade-in">
+<h3>Starter</h3>
+<div class="price">€99<span>/Monat</span></div>
+<ul>
+<li>10 Posts pro Monat</li>
+<li>1 Plattform (TikTok oder Instagram)</li>
+<li>Basic Style-Matching</li>
+<li>Email-Support</li>
+<li>48h Lieferzeit</li>
+</ul>
+<a href="https://buy.stripe.com/3cI7sL4049325Uh0i24Ni0h" class="pricing-cta" target="_blank">Starter wählen</a>
+</div>
+<div class="pricing-card featured fade-in">
+<span class="badge">Beliebt</span>
+<h3>Pro</h3>
+<div class="price">€249<span>/Monat</span></div>
+<ul>
+<li>30 Posts pro Monat</li>
+<li>2 Plattformen</li>
+<li>Advanced Style-Matching</li>
+<li>Trend-Hooks</li>
+<li>Priority Support</li>
+<li>24h Lieferzeit</li>
+</ul>
+<a href="https://buy.stripe.com/4gMdR9aos6UUgyVd4O4Ni0j" class="pricing-cta" target="_blank">Pro wählen</a>
+</div>
+<div class="pricing-card fade-in">
+<h3>Agency</h3>
+<div class="price">€499<span>/Monat</span></div>
+<ul>
+<li>60 Posts pro Monat</li>
+<li>Alle Plattformen</li>
+<li>Premium Style-Matching</li>
+<li>Trend-Hooks + Analytics</li>
+<li>Dedicated Support</li>
+<li>12h Lieferzeit</li>
+<li>White-Label Option</li>
+</ul>
+<a href="https://buy.stripe.com/5kQ14n2W0enmaaxfcW4Ni0i" class="pricing-cta" target="_blank">Agency wählen</a>
+</div>
+</div>
+</div>
+</section>
+
+<!-- SECTION 3: AGENTSMITH -->
+<section class="hero" id="agentsmith" style="padding:80px 0">
+<div class="container">
+<h2>AgentSmith — <span class="gold">Fertige KI-Agenten</span></h2>
+<p class="hero-sub">Sofort einsatzbereite AI-Agenten-Templates. Bald verfügbar.</p>
+<div class="hero-cta">
+<form class="newsletter-form" action="https://formspree.io/f/xnqevwrb" method="POST">
+<input type="email" name="email" placeholder="deine@email.com" required>
+<input type="hidden" name="_subject" value="AgentSmith Warteliste">
+<button type="submit">Auf die Warteliste</button>
+</form>
+</div>
+</div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<div class="container">
+<p>&copy; 2026 Alpha Labs — hello@alphalabs.io</p>
+</div>
+</footer>
+
+<script>
+// Navbar scroll effect
+window.addEventListener('scroll',()=>{document.getElementById('navbar').classList.toggle('scrolled',window.scrollY>50)});
+// Fade in on scroll
+const observer=new IntersectionObserver((entries)=>{entries.forEach(e=>{if(e.isIntersecting)e.target.classList.add('visible')})},{threshold:.1});
+document.querySelectorAll('.fade-in').forEach(el=>observer.observe(el));
+</script>
+</body>
+</html>
