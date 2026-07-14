@@ -1,0 +1,118 @@
+{
+  "demo": true,
+  "creator": "Alex FitCoach",
+  "niche": "fitness",
+  "date": "2025-07-28",
+  "profile": {
+    "creator_name": "Alex FitCoach",
+    "tone": "energetic",
+    "tone_description": "Motivierend, direkt, enthusiastisch. Alex redet wie ein Trainingspartner, nicht wie ein Lehrer. Kurze, kraftvolle Saetze mit Ausrufezeichen.",
+    "sentence_length": "short",
+    "sentence_style": "Fragmente und rhetorische Fragen. Wenig Subjunktionen. Direkte Ansprache ('du').",
+    "emoji_usage": "moderate",
+    "emoji_description": "Training-relevante Emojis (Fuer, Schwitzen, Hantel). Maximal 2-3 pro Post.",
+    "hook_style": "challenge",
+    "hook_examples": [
+      "3 Uebungen die du falsch machst",
+      "Tag 47 - und das passiert",
+      "STOPP - mach das nicht mehr"
+    ],
+    "cta_style": "soft",
+    "cta_examples": [
+      "Speicher dir das fuer dein naechstes Training",
+      "Tag jemanden der das braucht",
+      "Wie machst du das? Kommentar!"
+    ],
+    "common_phrases": [
+      "Let's go",
+      "Keine Ausreden",
+      "Progress, nicht Perfektion",
+      "Form ueber Gewicht",
+      "Consistency is key"
+    ],
+    "vocabulary_level": "simple",
+    "vocabulary_description": "Einfache, direkte Worte. Kein Fachjargon ohne Erklaerung. Wie man einem Freund im Gym erklaert.",
+    "signature_elements": [
+      "Verwendet 'Team' um Community anzusprechen",
+      "Endet oft mit 'Wir sehen uns im naechsten Post'",
+      "Nutzt Before/After Vergleiche"
+    ],
+    "writing_quirks": [
+      "Verdoppelt manche Worte fuer Betonung ('Mehr. Mehr Gewicht.')",
+      "Nutzt Klammern fuer Seitenkommentare",
+      "Schreibt Zahlen oft aus ('drei Sets statt 3 Sets')"
+    ],
+    "audience_perception": "Authentisch, erreichbar, motivierend. Kein 'ueberperfekter' Fitness-Influencer, sondern jemand der mit seinem Publikum waechst.",
+    "brand_voice_summary": "Alex ist der Trainingspartner, den jeder gerne haette. Direkt, motivierend, ohne aufgesetzten Guru-Ton. Glaubt an Konsistenz statt Perfektion und macht Fitness fuer jeden zugaenglich - egal ob Anfaenger oder erfahren.",
+    "donts": [
+      "Niemals herablassend klingen",
+      "Keine unerreichbaren Versprechen ('Sixpack in 2 Wochen')",
+      "Keine Body-Shaming Formulierungen",
+      "Kein verkauferischer Ton",
+      "Nie ohne wissenschaftliche Basis sprechen"
+    ]
+  },
+  "posts": [
+    {
+      "_demo": true,
+      "platform": "TikTok",
+      "title": "3 Uebungen die fast alle falsch machen",
+      "hook": "Machst du diese 3 Fehler im Training? (ich auch, bis vor 3 Monaten)",
+      "script": "Hast du das Gefuehl, dass deine Brust einfach nicht waechst?\n\nKoennte an diesen 3 Fehlern liegen:\n\n[Uebung 1: Bankdruecken]\nDie meisten lassen die Ellbogen zu weit aussen. 90 Grad Winkel - nein nein. 45 Grad zur Seite. Deine Schultern werden es dir danken. Mehr. Mehr Stabilitaet.\n\n[Uebung 2: Fliegende]\nZu viel Gewicht. Die Arme sind nur leicht gebeugt, nicht durchgestreckt. Kontrolliert runter, fuehl den Stretch. Langsam. Kontrolliert.\n\n[Uebung 3: Dips]\nOberkoerper zu aufrecht. Vorbeugen! Brust raus! So triffst du wirklich die Brust und nicht nur die Trizeps.\n\nProbier es beim naechsten Training aus. Form vor Gewicht. Immer.",
+      "caption": "Welchen Fehler machst du? Kommentar! Team, Form ist alles. Nicht das Gewicht auf der Stange - die Qualitaet der Bewegung zaehlt.",
+      "hashtags": ["#brusttraining", "#fitnesstips", "#formuebergewicht", "#gymtok", "#muskelaufbau", "#trainingfueranfaenger"],
+      "cta": "Folge fuer mehr Trainings-Tipps! Speicher diesen Post fuer dein naechstes Chest-Day",
+      "estimated_duration": "55s",
+      "mid_video_hook": "Der zweite Fehler hat meinen Fortschritt 2 Jahre gebremst...",
+      "_quality": {
+        "hook_check": true,
+        "cta_check": true,
+        "ai_tell_check": true,
+        "length_check": true,
+        "hashtag_check": true,
+        "overall_score": 5,
+        "warnings": []
+      }
+    },
+    {
+      "_demo": true,
+      "platform": "Instagram",
+      "title": "Mein Meal Prep Sonntag",
+      "hook": "5 Mahlzeiten. 45 Minuten. 12 Euro. So sieht mein Meal Prep aus.",
+      "content": "Ich hasse kochen.\n\nAber ich hasse es noch mehr, jeden Tag ueber Essen nachzudenken.\n\nDeswegen: Meal Prep Sonntag. Seit 2 Jahren. Jede Woche.\n\nHuhn (3kg auf einmal in den Ofen), Reis (Topf voll), Gemuese (TK-Mix - keine Scham, pragmatic over perfect), und mein Geheimtipp: selbstgemachtes Hummus.\n\n5 Container. Fertig.\n\nDie Ausrede 'ich hatte keine Zeit' zaehlt nicht mehr. Die Zeit investierst du am Sonntag - und holst sie dir Montag bis Freitag zurueck.\n\nProgress, nicht Perfektion.\n\n(Auch wenn das Gemuese manchmal TK ist. Shhh.)\n\nSpeicher dir das fuer deinen naechsten Sonntag.",
+      "caption": "SonnTags sind Prep-Tags. Wer von euch meal-prept auch? Drop dein Lieblings-Rezept in die Kommentare! Team, Ernaehrung ist das, was im Fitness am meisten unterschaetzt wird. Trainieren ist 1 Stunde am Tag. Essen ist 24/7.",
+      "hashtags": ["#mealprep", "#fitnessernaehrung", "#gesundessen", "#proteinreich", "#fitnesslifestyle", "#bulkseason", "#mealprepsonntag"],
+      "cta": "Teile diesen Post mit jemandem der Meal Prep braucht!",
+      "_quality": {
+        "hook_check": true,
+        "cta_check": true,
+        "ai_tell_check": true,
+        "length_check": true,
+        "hashtag_check": true,
+        "overall_score": 5,
+        "warnings": []
+      }
+    },
+    {
+      "_demo": true,
+      "platform": "YouTube Shorts",
+      "title": "Warum deine Muskeln nicht wachsen",
+      "hook": "Trainierst du 5x die Woche und siehst keinen Fortschritt? Hier ist der wahrscheinlichste Grund.",
+      "script": "Du trainierst hart. Jedes Workout ein Killer.\n\nAber deine Muskeln wachsen nicht?\n\nIch hab 2 Jahre gebraucht um das zu kapieren:\n\nMuskeln wachsen nicht im Gym. Sie wachsen in der Erholung.\n\nWenn du jeden Tag alles gibst, gibst du deinem Koerper nie die Chance aufzubauen. Training ist der Reiz - aber das Wachstum passiert beim Schlafen, beim Essen, beim Ausruhen.\n\nMein Tipp: Weniger haert trainieren. Mehr haert erholen.\n\n7-8 Stunden Schlaf. Protein-Target treffen. Und ja - auch mal einen Rest Day einlegen ohne schlechtes Gewissen.\n\nConsistency is key. Aber Recovery ist der Schluessel.\n\nWie viele Stunden schlaeft ihr durchschnittlich? Ehrliche Antworten nur!",
+      "caption": "Die Wahrheit die niemand dir sagt: Ruhe ist genauso wichtig wie das Training selbst. Speicher dir das fuer deinen naechsten Rest Day.",
+      "hashtags": ["#muskelaufbau", "#recovery", "#fitnesstips", "#shorts", "#gymmotivation", "#bodybuilding"],
+      "cta": "ABONNIEREN fuer mehr kurze, knackige Fitness-Truths!",
+      "estimated_duration": "48s",
+      "mid_video_hook": "Ich hab 2 Jahre gebraucht um das zu kapieren...",
+      "_quality": {
+        "hook_check": true,
+        "cta_check": true,
+        "ai_tell_check": true,
+        "length_check": true,
+        "hashtag_check": true,
+        "overall_score": 5,
+        "warnings": []
+      }
+    }
+  ]
+}

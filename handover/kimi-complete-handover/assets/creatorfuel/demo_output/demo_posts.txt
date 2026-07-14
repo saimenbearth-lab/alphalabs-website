@@ -1,0 +1,202 @@
+CREATORFUEL - DEMO OUTPUT
+Erstellt: 2025-07-28 08:47:00
+============================================================
+
+Creator: Alex FitCoach (Beispiel)
+Nische: fitness
+Plattformen: TikTok, Instagram, YouTube Shorts
+
+--- STYLE PROFILE ---
+{
+  "creator_name": "Alex FitCoach",
+  "tone": "energetic",
+  "tone_description": "Motivierend, direkt, enthusiastisch. Alex redet wie ein Trainingspartner, nicht wie ein Lehrer. Kurze, kraftvolle Saetze mit Ausrufezeichen.",
+  "sentence_length": "short",
+  "sentence_style": "Fragmente und rhetorische Fragen. Wenig Subjunktionen. Direkte Ansprache ('du').",
+  "emoji_usage": "moderate",
+  "emoji_description": "Training-relevante Emojis (Fuer, Schwitzen, Hantel). Maximal 2-3 pro Post.",
+  "hook_style": "challenge",
+  "hook_examples": [
+    "3 Uebungen die du falsch machst",
+    "Tag 47 - und das passiert",
+    "STOPP - mach das nicht mehr"
+  ],
+  "cta_style": "soft",
+  "cta_examples": [
+    "Speicher dir das fuer dein naechstes Training",
+    "Tag jemanden der das braucht",
+    "Wie machst du das? Kommentar!"
+  ],
+  "common_phrases": [
+    "Let's go",
+    "Keine Ausreden",
+    "Progress, nicht Perfektion",
+    "Form ueber Gewicht",
+    "Consistency is key"
+  ],
+  "vocabulary_level": "simple",
+  "vocabulary_description": "Einfache, direkte Worte. Kein Fachjargon ohne Erklaerung. Wie man einem Freund im Gym erklaert.",
+  "signature_elements": [
+    "Verwendet 'Team' um Community anzusprechen",
+    "Endet oft mit 'Wir sehen uns im naechsten Post'",
+    "Nutzt Before/After Vergleiche"
+  ],
+  "writing_quirks": [
+    "Verdoppelt manche Worte fuer Betonung ('Mehr. Mehr Gewicht.')",
+    "Nutzt Klammern fuer Seitenkommentare",
+    "Schreibt Zahlen oft aus ('drei Sets statt 3 Sets')"
+  ],
+  "audience_perception": "Authentisch, erreichbar, motivierend. Kein 'ueberperfekter' Fitness-Influencer, sondern jemand der mit seinem Publikum waechst.",
+  "brand_voice_summary": "Alex ist der Trainingspartner, den jeder gerne haette. Direkt, motivierend, ohne aufgesetzten Guru-Ton. Glaubt an Konsistenz statt Perfektion und macht Fitness fuer jeden zugaenglich - egal ob Anfaenger oder erfahren.",
+  "donts": [
+    "Niemals herablassend klingen",
+    "Keine unerreichbaren Versprechen ('Sixpack in 2 Wochen')",
+    "Keine Body-Shaming Formulierungen",
+    "Kein verkauferischer Ton",
+    "Nie ohne wissenschaftliche Basis sprechen"
+  ]
+}
+
+--- GENERIERTE POSTS ---
+
+============================================================
+  POST 1: TIKTOK
+  Quality Score: 5/5
+============================================================
+
+TITEL:
+  3 Uebungen die fast alle falsch machen
+
+HOOK:
+  Machst du diese 3 Fehler im Training? (ich auch, bis vor 3 Monaten)
+
+SCRIPT:
+  Hast du das Gefuehl, dass deine Brust einfach nicht waechst?
+
+  Koennte an diesen 3 Fehlern liegen:
+
+  [Uebung 1: Bankdruecken]
+  Die meisten lassen die Ellbogen zu weit aussen. 90 Grad Winkel - nein nein. 45 Grad zur Seite. Deine Schultern werden es dir danken. Mehr. Mehr Stabilitaet.
+
+  [Uebung 2: Fliegende]
+  Zu viel Gewicht. Die Arme sind nur leicht gebeugt, nicht durchgestreckt. Kontrolliert runter, fuehl den Stretch. Langsam. Kontrolliert.
+
+  [Uebung 3: Dips]
+  Oberkoerper zu aufrecht. Vorbeugen! Brust raus! So triffst du wirklich die Brust und nicht nur die Trizeps.
+
+  Probier es beim naechsten Training aus. Form vor Gewicht. Immer.
+
+MID-VIDEO-HOOK:
+  Der zweite Fehler hat meinen Fortschritt 2 Jahre gebremst...
+
+HASHTAGS:
+  #brusttraining #fitnesstips #formuebergewicht #gymtok #muskelaufbau #trainingfueranfaenger
+
+CTA (Call-to-Action):
+  Folge fuer mehr Trainings-Tipps! Speicher diesen Post fuer dein naechstes Chest-Day
+
+GESCHAETZTE DAUER: 55s
+
+--- QUALITY GATES ---
+  ✓ Hook Check
+  ✓ CTA Check
+  ✓ AI-Tell Check
+  ✓ Laengen-Check
+  ✓ Hashtag Check
+
+----------------------------------------
+
+============================================================
+  POST 2: INSTAGRAM
+  Quality Score: 5/5
+============================================================
+
+TITEL:
+  Mein Meal Prep Sonntag
+
+HOOK:
+  5 Mahlzeiten. 45 Minuten. 12 Euro. So sieht mein Meal Prep aus.
+
+CONTENT:
+  Ich hasse kochen.
+
+  Aber ich hasse es noch mehr, jeden Tag ueber Essen nachzudenken.
+
+  Deswegen: Meal Prep Sonntag. Seit 2 Jahren. Jede Woche.
+
+  Huhn (3kg auf einmal in den Ofen), Reis (Topf voll), Gemuese (TK-Mix - keine Scham, pragmatic over perfect), und mein Geheimtipp: selbstgemachtes Hummus.
+
+  5 Container. Fertig.
+
+  Die Ausrede 'ich hatte keine Zeit' zaehlt nicht mehr. Die Zeit investierst du am Sonntag - und holst sie dir Montag bis Freitag zurueck.
+
+  Progress, nicht Perfektion.
+
+  (Auch wenn das Gemuese manchmal TK ist. Shhh.)
+
+  Speicher dir das fuer deinen naechsten Sonntag.
+
+HASHTAGS:
+  #mealprep #fitnessernaehrung #gesundessen #proteinreich #fitnesslifestyle #bulkseason #mealprepsonntag
+
+CTA (Call-to-Action):
+  Teile diesen Post mit jemandem der Meal Prep braucht!
+
+--- QUALITY GATES ---
+  ✓ Hook Check
+  ✓ CTA Check
+  ✓ AI-Tell Check
+  ✓ Laengen-Check
+  ✓ Hashtag Check
+
+----------------------------------------
+
+============================================================
+  POST 3: YOUTUBE SHORTS
+  Quality Score: 5/5
+============================================================
+
+TITEL:
+  Warum deine Muskeln nicht wachsen
+
+HOOK:
+  Trainierst du 5x die Woche und siehst keinen Fortschritt? Hier ist der wahrscheinlichste Grund.
+
+SCRIPT:
+  Du trainierst hart. Jedes Workout ein Killer.
+
+  Aber deine Muskeln wachsen nicht?
+
+  Ich hab 2 Jahre gebraucht um das zu kapieren:
+
+  Muskeln wachsen nicht im Gym. Sie wachsen in der Erholung.
+
+  Wenn du jeden Tag alles gibst, gibst du deinem Koerper nie die Chance aufzubauen. Training ist der Reiz - aber das Wachstum passiert beim Schlafen, beim Essen, beim Ausruhen.
+
+  Mein Tipp: Weniger haert trainieren. Mehr haert erholen.
+
+  7-8 Stunden Schlaf. Protein-Target treffen. Und ja - auch mal einen Rest Day einlegen ohne schlechtes Gewissen.
+
+  Consistency is key. Aber Recovery ist der Schluessel.
+
+  Wie viele Stunden schlaeft ihr durchschnittlich? Ehrliche Antworten nur!
+
+MID-VIDEO-HOOK:
+  Ich hab 2 Jahre gebraucht um das zu kapieren...
+
+HASHTAGS:
+  #muskelaufbau #recovery #fitnesstips #shorts #gymmotivation #bodybuilding
+
+CTA (Call-to-Action):
+  ABONNIEREN fuer mehr kurze, knackige Fitness-Truths!
+
+GESCHAETZTE DAUER: 48s
+
+--- QUALITY GATES ---
+  ✓ Hook Check
+  ✓ CTA Check
+  ✓ AI-Tell Check
+  ✓ Laengen-Check
+  ✓ Hashtag Check
+
+----------------------------------------

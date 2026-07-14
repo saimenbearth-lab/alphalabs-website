@@ -1,0 +1,108 @@
+{
+  "batch_info": {
+    "creator": "Lisa Fitness",
+    "niche": "fitness",
+    "date": "2025-07-28",
+    "time": "08:47:00",
+    "platforms": ["TikTok", "Instagram"],
+    "posts_per_platform": 2,
+    "language": "both"
+  },
+  "platforms": {
+    "TikTok": {
+      "num_posts": 2,
+      "posts": [
+        {
+          "platform": "TikTok",
+          "title": "3 Gym Fehler die jeder macht",
+          "hook": "Machst du diesen Fehler im Gym? (ich war schuldig bis vor 6 Monaten)",
+          "script": "Dieser eine Fehler hat meinen Fortschritt um 2 Jahre gebremst...\\n\\n[Zeigt auf Bildschirm: 'Fehler #1']\\n\\nDu trainierst jeden Tag dieselbe Muskelgruppe. Rest Days sind genauso wichtig wie das Training. Deine Muskeln wachsen nicht im Gym - sie wachsen beim Schlafen und Erholen.\\n\\n[Zeigt auf: 'Fehler #2']\\n\\nDu ignorierst die Form um mehr Gewicht zu schaffen. Ego-Lifting nennt man das. Langsamer runter, kontrolliert. Deine Gelenke werden es dir danken.\\n\\n[Zeigt auf: 'Fehler #3']\\n\\nKein Tracking. Wie sollst du wissen was funktioniert wenn du nicht aufschreibst was du hebst? Notiz-App. Jeden Tag.\\n\\nWelchen Fehler machst du? Kommentar!",
+          "caption": "Ehrliche Gym-Talk. Wer von euch trainiert ohne Tracking? ",
+          "hashtags": ["#gymtok", "#fitnesstips", "#muskelaufbau", "#trainingsfehler", "#gymmotivation", "#fitnessanfaenger"],
+          "cta": "Folge fuer mehr ehrliche Fitness-Tipps! Speicher diesen Post",
+          "estimated_duration": "52s",
+          "mid_video_hook": "Dieser eine Fehler hat meinen Fortschritt um 2 Jahre gebremst...",
+          "visual_notes": "Split-Screen: links Gym-Fails, rechts korrekte Ausfuehrung. Text-Overlays fuer jeden Fehler.",
+          "_quality": {
+            "hook_check": true,
+            "cta_check": true,
+            "ai_tell_check": true,
+            "length_check": true,
+            "hashtag_check": true,
+            "overall_score": 5,
+            "warnings": []
+          }
+        },
+        {
+          "platform": "TikTok",
+          "title": "Mein Meal Prep Sonntag",
+          "hook": "5 Mahlzeiten. 45 Minuten. So geht effizientes Meal Prep.",
+          "script": "Ich hasse kochen. Aber ich hasse es noch mehr, jeden Tag ueber Essen nachzudenken...\\n\\n[Zeigt auf vorbereitete Container]\\n\\nDeswegen: Meal Prep Sonntag. Seit 2 Jahren. Jede Woche.\\n\\nHuhn in den Ofen, Reis in den Topf, Gemuese aus der TK. Fertig.\\n\\n[Zeigt auf fertige Container]\\n\\n5 Container. 45 Minuten. Die Ausrede 'keine Zeit' zaehlt nicht mehr.\\n\\nSpeicher dir das fuer deinen naechsten Sonntag!",
+          "caption": "Meal Prep = Zeit sparen + Ziele erreichen. Wer meal-prept auch? ",
+          "hashtags": ["#mealprep", "#fitnessernaehrung", "#gesundessen", "#protein", "#fitnesslifestyle"],
+          "cta": "Folge fuer mehr Praxis-Tipps!",
+          "estimated_duration": "38s",
+          "mid_video_hook": "Die Ausrede 'keine Zeit' zaehlt nicht mehr...",
+          "visual_notes": "Zeitraffer: Kochen und einpacken. Nahaufnahmen der fertigen Meal-Prep-Container.",
+          "_quality": {
+            "hook_check": true,
+            "cta_check": true,
+            "ai_tell_check": true,
+            "length_check": true,
+            "hashtag_check": true,
+            "overall_score": 5,
+            "warnings": []
+          }
+        }
+      ],
+      "trends_used": ["#gymtok", "#fitnesstips", "#muskelaufbau"]
+    },
+    "Instagram": {
+      "num_posts": 2,
+      "posts": [
+        {
+          "platform": "Instagram",
+          "title": "Rest Days sind genauso wichtig",
+          "hook": "Trainierst du 6x die Woche und siehst keinen Fortschritt? Hier ist warum.",
+          "content": "Ich hab 2 Jahre gebraucht um das zu kapieren:\\n\\nMuskeln wachsen nicht im Gym.\\n\\nSie wachsen in der Erholung.\\n\\nWenn du jeden Tag alles gibst, gibst du deinem Koerper nie die Chance aufzubauen. Training ist der Reiz - aber das Wachstum passiert beim Schlafen, beim Essen, beim Ausruhen.\\n\\nMein Tipp: Weniger haert trainieren. Mehr haert erholen.\\n\\n7-8 Stunden Schlaf. Protein-Target treffen. Und ja - auch mal einen Rest Day einlegen ohne schlechtes Gewissen.\\n\\nConsistency is key. Aber Recovery ist der Schluessel.",
+          "caption": "Die Wahrheit die niemand dir sagt. Wie viele Stunden schlaeft ihr durchschnittlich? Ehrliche Antworten nur! \\\n\\n.\\n.\\n.\\n#restday #recovery #muskelaufbau #fitnesstips #gymmotivation #schlaf",
+          "hashtags": ["#restday", "#recovery", "#muskelaufbau", "#fitnesstips", "#gymmotivation", "#schlaf"],
+          "cta": "Speicher dir das fuer deinen naechsten Rest Day!",
+          "mood": "ruhig, entspannt, warme Farben",
+          "_quality": {
+            "hook_check": true,
+            "cta_check": true,
+            "ai_tell_check": true,
+            "length_check": true,
+            "hashtag_check": true,
+            "overall_score": 5,
+            "warnings": []
+          }
+        },
+        {
+          "platform": "Instagram",
+          "title": "Vorher vs Nachher: 6 Monate",
+          "hook": "Dieser eine Tipp hat alles veraendert.",
+          "content": "Links: Vor 6 Monaten. Rechts: Heute.\\n\\nDer Unterschied? Kein fancy Supplement. Kein teurer Coach.\\n\\nNur eines: Konsistenz.\\n\\n5 Trainingseinheiten pro Woche. Jede Woche. Fuer 6 Monate.\\n\\nDie Basics funktionieren. Wirklich.\\n\\nDu brauchst keinen perfekten Plan. Du brauchst einen Plan den du durchhaeltst.\\n\\nTag jemanden der das sehen muss.",
+          "caption": "6 Monate Konsistenz > 6 Wochen Perfektion. Wer ist auch Team #consistency? \\\n\\n.\\n.\\n.\\n#transformation #fitnessjourney #muskelaufbau #vorthernachher #gymmotivation",
+          "hashtags": ["#transformation", "#fitnessjourney", "#muskelaufbau", "#vorthernachher", "#gymmotivation"],
+          "cta": "Tag jemanden der das sehen muss!",
+          "mood": "motivierend, ehrlich, vorher-nachher-split",
+          "_quality": {
+            "hook_check": true,
+            "cta_check": true,
+            "ai_tell_check": true,
+            "length_check": true,
+            "hashtag_check": true,
+            "overall_score": 5,
+            "warnings": []
+          }
+        }
+      ],
+      "trends_used": ["#restday", "#recovery", "#transformation"]
+    }
+  },
+  "total_cost_usd": 0.0156,
+  "total_posts": 4,
+  "failed_generations": []
+}
