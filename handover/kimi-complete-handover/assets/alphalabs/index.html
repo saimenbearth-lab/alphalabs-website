@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlphaLabs - Innovation Hub</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0f;
+            color: #fff;
+            line-height: 1.6;
+        }
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 50%, #16213e 100%);
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%);
+        }
+        .hero-content { position: relative; z-index: 1; padding: 2rem; }
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+        }
+        .hero p { font-size: 1.25rem; color: #a0a0b0; max-width: 600px; margin: 0 auto 2rem; }
+        .cta-btn {
+            display: inline-block;
+            padding: 1rem 2.5rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .cta-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 40px rgba(102, 126, 234, 0.4); }
+        .features {
+            padding: 5rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .feature-card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 16px;
+            padding: 2rem;
+            transition: transform 0.3s;
+        }
+        .feature-card:hover { transform: translateY(-5px); }
+        .feature-card h3 { color: #667eea; margin-bottom: 0.5rem; }
+        .feature-card p { color: #a0a0b0; }
+        .footer {
+            text-align: center;
+            padding: 3rem 2rem;
+            color: #666;
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <div class="hero-content">
+            <h1>AlphaLabs</h1>
+            <p>Pioneering the future of technology. We build tools that empower creators, innovators, and visionaries.</p>
+            <a href="#features" class="cta-btn">Explore Our Work</a>
+        </div>
+    </div>
+    <div class="features" id="features">
+        <div class="feature-card">
+            <h3>CreatorFuel</h3>
+            <p>AI-powered content generation for social media creators. Generate authentic posts in your unique voice.</p>
+        </div>
+        <div class="feature-card">
+            <h3>AlphaSignal</h3>
+            <p>Weekly newsletter covering the latest in tech, AI, and digital innovation. Stay ahead of the curve.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Open Source</h3>
+            <p>Contributing to the community with open-source tools and libraries. Build with us.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>&copy; 2025 AlphaLabs. All rights reserved.</p>
+    </div>
+</body>
+</html>

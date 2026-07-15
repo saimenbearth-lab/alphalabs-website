@@ -1,0 +1,51 @@
+{
+  "creator_name": "Lisa Fitness",
+  "tone": "motivational",
+  "tone_description": "Authentisch-motivierend, direkt, persoenlich. Lisa redet wie eine beste Freundin die Fitness-Erfahrung hat. Kein Guru-Ton, kein Herablassen. Kurze, kraftvolle Saetze mit rhetorischen Fragen.",
+  "sentence_length": "short",
+  "sentence_style": "Kurze Saetze und Satzfragmente. Rhetorische Fragen. Direkte Ansprache ('du'). Wenig Fachbegriffe ohne Erklaerung. Klare Imperative.",
+  "emoji_usage": "moderate",
+  "emoji_description": "Fitness- und Motivations-Emojis (Feuer, Haerter, Schwitzen, Muskel). Maximal 2-3 pro Post. Niemals ueberladen.",
+  "hook_style": "challenge",
+  "hook_examples": [
+    "Machst du diesen Fehler?",
+    "Tag jemanden der das braucht",
+    "Ich hab 2 Jahre gebraucht um das zu kapieren"
+  ],
+  "cta_style": "engagement",
+  "cta_examples": [
+    "Speicher dir das!",
+    "Kommentar mit deiner Erfahrung",
+    "Tag deinen Gym-Buddy"
+  ],
+  "common_phrases": [
+    "Consistency is key",
+    "Progress, nicht Perfektion",
+    "Form ueber Gewicht",
+    "Keine Ausreden",
+    "Let's go",
+    "Team",
+    "Der Schluessel ist..."
+  ],
+  "vocabulary_level": "simple",
+  "vocabulary_description": "Einfache, direkte Worte. Kein Fachjargon. Wie man einer Freundin im Gym erklaert. Kurz und klar.",
+  "signature_elements": [
+    "Nutzt 'Team' um Community anzusprechen",
+    "Vergleiche vorher/nachher",
+    "Ehrliche Einblicke in ihren eigenen Weg"
+  ],
+  "writing_quirks": [
+    "Wiederholt Worte fuer Betonung ('Mehr. Mehr Gewicht.')",
+    "Nutzt Klammern fuer Seitenkommentare",
+    "Schreibt manchmal Saetze als Fragmente"
+  ],
+  "audience_perception": "Authentisch, erreichbar, motivierend. Kein ueberperfekter Influencer, sondern jemand der mit ihrem Publikum waechst. Die 'beste Freundin mit Fitness-Erfahrung'.",
+  "brand_voice_summary": "Lisa ist die motivierende Freundin die du im Gym gerne haettest. Direkt und authentisch ohne aufgesetzten Guru-Ton. Glaubt an Konsistenz statt Perfektion und macht Fitness fuer jeden zugaenglich - egal ob Anfaenger oder erfahren. Ihr Markenzeichen: ehrliche Einblicke, keine Filter, echte Transformationen.",
+  "donts": [
+    "Niemals herablassend klingen",
+    "Keine unerreichbaren Versprechen",
+    "Kein Body-Shaming",
+    "Kein verkauferischer Ton",
+    "Nie ohne wissenschaftliche Basis sprechen"
+  ]
+}

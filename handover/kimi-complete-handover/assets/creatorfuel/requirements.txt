@@ -1,0 +1,14 @@
+# CreatorFuel Requirements
+# Install: pip install -r requirements.txt
+
+# OpenAI API Client
+openai>=1.12.0
+
+# Umgebungsvariablen
+python-dotenv>=1.0.0
+
+# HTTP Requests (Trend-Suche)
+requests>=2.31.0
+
+# Emoji-Unterstuetzung
+emoji>=2.10.0
